@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Detail - TC Blogs</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="site-wrapper">
+        <header class="header-default">
+            <div class="container-xl text-center py-3">
+                <a href="index.html" class="navbar-brand"><img src="images/logo.svg" alt=""></a>
+            </div>
+        </header>
+
+        <section class="main-content">
+            <div class="container-xl">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8" id="post-detail-container">
+                        <div class="text-center"><div class="lds-dual-ring loading visible"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const postId = parseInt(urlParams.get('id'));
+            const container = document.getElementById('post-detail-container');
+
+            if (!postId) {
+                container.innerHTML = "<h3>Post not found.</h3><a href='index.html'>Go back</a>";
+                return;
+            }
+
+            fetch('data.json')
+                .then(res => res.json())
+                .then(data => {
+                    const post = data.find(p => p.id === postId);
+                    if (post) {
+                        container.innerHTML = `
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">${post.category}</li>
+                                </ol>
+                            </nav>
+                            <h2 class="post-title my-4">${post.title}</h2>
+                            <ul class="meta list-inline mb-4">
+                                <li class="list-inline-item">By <b>${post.author}</b></li>
+                                <li class="list-inline-item">${post.date}</li>
+                            </ul>
+                            <div class="thumb rounded mb-4">
+                                <img src="${post.image}" alt="${post.title}" class="w-100 rounded">
+                            </div>
+                            <div class="post-content">
+                                <p class="lead">${post.description}</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut dolor auctor, malesuada leo id, tristique ex. Nulla facilisi. Sed non elementum quam.</p>
+                            </div>
+                        `;
+                    } else {
+                        container.innerHTML = "<h3>Post not found.</h3>";
+                    }
+                });
+        });
+    </script>
+</body>
+</html> 

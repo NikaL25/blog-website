@@ -1,0 +1,22 @@
+[
+  {"id": 1, "title": "10 JS Frameworks in 2024", "description": "Explore the top javascript frameworks.", "category": "Technology", "image": "images/posts/latest-1.jpg", "date": "10 Oct 2023", "author": "Techie Coder"},
+  {"id": 2, "title": "Healthy Living Tips", "description": "How to stay fit while coding.", "category": "Lifestyle", "image": "images/posts/latest-2.jpg", "date": "11 Oct 2023", "author": "Anna Dev"},
+  {"id": 3, "title": "New iPhone Release", "description": "Everything you need to know about the new phone.", "category": "Electronic", "image": "images/posts/latest-3.jpg", "date": "12 Oct 2023", "author": "Techie Coder"},
+  {"id": 4, "title": "Stock Market Update", "description": "Is it a bull or bear market?", "category": "Finance", "image": "images/posts/latest-4.jpg", "date": "13 Oct 2023", "author": "Finance Guru"},
+  {"id": 5, "title": "Cricket World Cup Highlights", "description": "Amazing catches from yesterday's match.", "category": "Cricket", "image": "images/posts/tabs-1.jpg", "date": "14 Oct 2023", "author": "Sports Fan"},
+  {"id": 6, "title": "Summer Fashion 2024", "description": "What to wear next summer.", "category": "Fashion", "image": "images/posts/tabs-2.jpg", "date": "15 Oct 2023", "author": "Style Icon"},
+  {"id": 7, "title": "Top 10 Movies of the Year", "description": "A review of the best cinematic experiences.", "category": "Movies", "image": "images/posts/tabs-3.jpg", "date": "16 Oct 2023", "author": "Cinema Lover"},
+  {"id": 8, "title": "Learning Vanilla JS", "description": "Why dropping jQuery is a good idea.", "category": "Education", "image": "images/posts/tabs-4.png", "date": "17 Oct 2023", "author": "Code Master"},
+  {"id": 9, "title": "Future of AI", "description": "Will robots take our jobs?", "category": "Technology", "image": "images/posts/insp-1.jpg", "date": "18 Oct 2023", "author": "Techie Coder"},
+  {"id": 10, "title": "Best Coffee Places", "description": "Where to code and drink coffee.", "category": "Lifestyle", "image": "images/posts/insp-2.jpg", "date": "19 Oct 2023", "author": "Anna Dev"},
+  {"id": 11, "title": "Gadgets for Developers", "description": "Must-have desk accessories.", "category": "Electronic", "image": "images/posts/insp-3.jpg", "date": "20 Oct 2023", "author": "Gadget Pro"},
+  {"id": 12, "title": "Investing for Beginners", "description": "Start building your wealth.", "category": "Finance", "image": "images/posts/tren-sm-1.jpg", "date": "21 Oct 2023", "author": "Finance Guru"},
+  {"id": 13, "title": "T20 Matches Overview", "description": "Short format cricket strategies.", "category": "Cricket", "image": "images/posts/tren-sm-2.jpg", "date": "22 Oct 2023", "author": "Sports Fan"},
+  {"id": 14, "title": "Sustainable Fashion", "description": "Eco-friendly clothing brands.", "category": "Fashion", "image": "images/posts/tren-sm-3.jpg", "date": "23 Oct 2023", "author": "Style Icon"},
+  {"id": 15, "title": "Indie Movies to Watch", "description": "Hidden gems in cinema.", "category": "Movies", "image": "images/posts/tren-sm-4.jpg", "date": "24 Oct 2023", "author": "Cinema Lover"},
+  {"id": 16, "title": "Mastering CSS Grid", "description": "Layouts made easy.", "category": "Education", "image": "images/posts/editor-side-1.jpg", "date": "25 Oct 2023", "author": "Code Master"},
+  {"id": 17, "title": "Space Exploration", "description": "Mars missions update.", "category": "Technology", "image": "images/posts/editor-side-2.jpg", "date": "26 Oct 2023", "author": "Techie Coder"},
+  {"id": 18, "title": "Meditation for Focus", "description": "Improve your coding sessions.", "category": "Lifestyle", "image": "images/posts/editor-side-3.jpg", "date": "27 Oct 2023", "author": "Anna Dev"},
+  {"id": 19, "title": "Smart Home Setup", "description": "Automate your daily life.", "category": "Electronic", "image": "images/posts/editor-side-4.jpg", "date": "28 Oct 2023", "author": "Gadget Pro"},
+  {"id": 20, "title": "Cryptocurrency Trends", "description": "What to watch out for.", "category": "Finance", "image": "images/posts/wid-1.jpg", "date": "29 Oct 2023", "author": "Finance Guru"}
+]
